@@ -7,4 +7,5 @@ taxonomy:
 
 - should toggle plugins to see how the website reacts
 - possibly mention something about changing theme grid size?
+- changing the sidebar text
 - anything else?
