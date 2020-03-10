@@ -30,6 +30,7 @@ Content Under Development:
 - Markdown
   - Best Practices
   - Carousels and other fancy things
+  - Embedding things
 - Special Topics
   - Users and Permissions
   - Databases (sqlite)
