@@ -1,5 +1,6 @@
 ---
 title: 'Making the Blog Page'
+media_order: 'add-page-settings.png,add-page.png,blog-config.png,blog-page-content.png,expert-mode.png,header-demo.png,page-editor.png,result-blog.png'
 taxonomy:
     category:
         - docs
