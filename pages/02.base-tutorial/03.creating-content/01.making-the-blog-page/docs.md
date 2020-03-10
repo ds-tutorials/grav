@@ -59,6 +59,6 @@ Now we only have _Content_ and _Options_ tabs. On the _Content_ tab, the _Title_
 
 Since the normal editing mode will be much more useful to us in general, we can go ahead and switch back. If we navigate to our website, it should look like this:
 
-[ui-browser address="http://grav.ds-tutorials.oucreate.com/grav-demo/blog"]
+[ui-browser address="http://ds-tutorials.oucreate.com/grav-demo/blog"]
 ![The Website Blog page (not the Home page) is shown. The content (title and subtitle) we added is featured prominently.](result-blog.png)
 [/ui-browser]
