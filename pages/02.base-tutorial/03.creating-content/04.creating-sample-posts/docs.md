@@ -313,154 +313,269 @@ feed:
     limit: 10
 ```
 
-### x. title
+### 6. Library Workshops
 
 #### Content
 
-Title:
+Title: ```CLIP: Library Workshops```
 
 Content: 
 ```md
-CLIP:
+CLIP: The University of Oklahoma Libraries offers numerous workshops throughout the year, with topics ranging from knitting to automating repetitive tasks using the programming language R.
+
+===
+
+Whatever your interests (or needs), there are likely at least a few workshops you would find interesting and/or useful. You can check out the [OU Libraries calendar](https://libraries.ou.edu/calendar-node-field-event-date/month) to see what events and workshops are coming up. Make sure to check back regularly to see what new events may have been scheduled.
+
+Don't see a workshop you want? See a workshop you want that isn't offered at a good time? View our [list of on-request workshops](https://libraries.ou.edu/content/university-libraries-request-workshops). For most of these, as long as five people plan to attend we will schedule one for you. The Carpentry workshops are an exception, as they are very long (2 8-hour days). They require a minimum of fifteen participants.
+
+If we have a workshop you are interested in that is not listed as an on-request workshop, or if you don't see a workshop on something that you want to learn, please [contact us](https://libraries.ou.edu/content/contact-us) and let us know! Your feedback can help inform our future directions, and we may be able to direct you to relevant resources, if nothing else.
 ```
 
 Page Media:
+- _Texas Wildflowers_ **as** _texas-wildflowers.png_
 
 #### Options
 
 Tags:
+- landscape photo
+- ou libraries
 
 #### Blog Item
 
-Hero Classes:
+Hero Classes: ```CLIP: title-h1h2 text-light overlay-dark-gradient```
 
-Hero Image:
+Hero Image: _texas-wildflowers.png_
 
 #### Frontmatter
 ```yaml
-CLIP: 
+CLIP: title: 'Library Workshops'
+media_order: texas-wildflowers.png
+taxonomy:
+    tag:
+        - 'landscape photo'
+        - 'ou libraries'
+hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
+hero_image: texas-wildflowers.png
+feed:
+    limit: 10
 ```
 
-### x. title
+### 7. Fantasy Books
 
 #### Content
 
-Title:
+Title: ```CLIP: Fantasy Books```
 
 Content: 
 ```md
-CLIP:
+CLIP: Books are great! My favorite genre is fantasy, particularly high fantasy - think Lord of the Rings style.
+
+===
+
+## Books
+
+In no particular order, here are some books.
+
+### Lord of the Rings
+
+While not everyone finds it easy to get into _Lord of the Rings_, it definitely deserves a place (or at least a mention) on any fantasy reading list, if only because J. R. R. Tolkein is the father of modern fantasy. _Lord of the Rings_ focuses very heavily on world building, and the languages are particularly well-developed, since Tolkein himself was a linguist. If you find the trilogy is not quite your style, you might still enjoy reading _The Hobbit_.
+
+### Wheel of Time
+
+This fourteen book series was written by Robert Jordan until his death and then continued and completed by Brandon Sanderson (Jordan prepared extensive notes, as he had been diagnosed with a terminal illness). The books are all extremely thick, so this series is a major time commitment. It is also one of my all time favorites with a beautifully developed world, extensive character development, and an epic storyline. It contains mature themes but is remarkably clean.
+
+### Codex Alera
+
+This six book series was written by Jim Butcher, who is also the author of the popular urban fantasy series _The Dresden Files_. I prefer the _Codex Alera_, mostly because it is high fantasy. Both series are a much lighter read than _Lord of the Rings_ or _Wheel of Time_. Fun fact: Apparently the inspiration for _Codex Alera_ came from a heated debate about whether a strong enough premise could carry a book despite a lousy writer, or whether a lousy premise could be made up for by a strong enough writer. The conclusion of this was Butcher agreeing to write a story using two terrible ideas provided to him, which ended up being Lost Roman Legion and Pokemon (Johnson, 2010).
+
+Johnson, B. (2010). _Jim Butcher chats about Pokemon, responsibility, and changes._ Fantasy Literature. http://www.fantasyliterature.com/author-interviews/jim-butcher/
+
+### Harry Potter
+
+This seven book series was written by J. K. Rowling. To be honest, I have a love-hate relationship with this one. It's an incredible and imaginative world, but, given that it began as more of a kids' adventure, there are a lot of plot holes. Also, J. K. Rowling keeps trying to say things about the world, but for my sanity I consider everything from the 1st book to the right before the epilogue is the last book as canon, along with _Tales of Beedle and the Bard_, _Fantastic Beasts and Where to Find Them_ (the book, not the movie), and _Quidditch Through the Ages_. The epilogue falls somewhere between canon and not. Everything from Pottermore or _The Cursed Child_ or elsewhere I consider unequivocally not canon. If you are a person who tends to care about these things, for your own sanity, I recommend doing the same.
+
+### The Deed of Paksenarrion
+
+This trilogy was written by Elizabeth Moon. There is also a sequel trilogy. Moon writes a lot of science fiction, but this represents an extremely successful foray into fantasy writing. _The Deed of Paksenarrion_ is military focused (Paks is a warrior by trade) and is very strong in detail. The story is harsh at places, but I would strongly recommend it!
+
+### Other worthwhile fantasy reads
+
+- _The Name of the Wind_ by Patrick Rothfuss
+- Anything by Brandon Sanderson
+- The webserial [_The Gods are Bastards_](https://tiraas.net/2014/08/20/book-1-prologue/) by D. D. Webb (high fantasy and western setting, in-progress)
+- The weberial [_A Practrical Guide to Evil_](https://practicalguidetoevil.wordpress.com/2015/03/25/prologue/) by ErraticErrata (David Verburg) (in-progress)
+
 ```
 
 Page Media:
+- _Queenstown Hill, New Zealand_ **as** _queenstown-hill-nz.png_
 
 #### Options
 
 Tags:
+- landscape photo
+- just for fun
 
 #### Blog Item
 
-Hero Classes:
+Hero Classes: ```CLIP: title-h1h2 text-light overlay-dark-gradient```
 
-Hero Image:
+Hero Image: _queenstown-hill-nz.png_
 
 #### Frontmatter
 ```yaml
-CLIP: 
+CLIP: title: 'Fantasy Books'
+media_order: queenstown-hill-nz.png
+taxonomy:
+    tag:
+        - 'landscape photo'
+        - 'just for fun'
+hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
+hero_image: queenstown-hill-nz.png
+feed:
+    limit: 10
 ```
 
-### x. title
+### 8. Library Resources and Research Help
 
 #### Content
 
-Title:
+Title: ```CLIP: Library Resources and Research Help```
 
 Content: 
 ```md
-CLIP:
+CLIP: If you have looked for a book at OU Libraries, chances are you have used the Discover box at the top of the main library website. Sometimes, however, this is not the most efficient way to find what you are looking for.
+
+===
+
+Oftentimes research requires a bit more specificity in searching. For example, you may need to find articles that fit some particular criteria to be useful for your study or paper. In these cases, a Discover search may be too general. You may find it more helpful to check out our [Databases & E-Reference](https://libraries.ou.edu/eresources), which provides access to a wide variety of databases.
+
+Not sure what database to use? There are so many options that it can easily become overwhelming. For more general article searching, I typically start with Academic Search Primiere, EBSCO, JSTOR, or ProQuest. However, we have other resources available to help you choose. You can start by checking out our [research guides](https://libraries.ou.edu/guides-index) linked to from the library website, or by going to [guides.ou.edu](https://guides.ou.edu/home). Here you can look up the subject you are researching and see what databases we recommend, as well as get information on other potential sources of information or tips for how to find what you need.
+
+For additional research help, visit the Learning Lab on Lower Level One of Bizzell Memorial Library, [contact us](https://libraries.ou.edu/content/contact-us), or contact/schedule an appointment with your subject librarian.
 ```
 
 Page Media:
+- _Wyoming Sunset_ **as** _wyoming-sunset.png_
 
 #### Options
 
 Tags:
+- landscape photo
+- ou libraries
 
 #### Blog Item
 
-Hero Classes:
+Hero Classes: ```CLIP: title-h1h2 text-light overlay-dark-gradient```
 
-Hero Image:
+Hero Image: _wyoming-sunset.png_
 
 #### Frontmatter
 ```yaml
-CLIP: 
+CLIP: title: 'Library Resources and Research Help'
+media_order: wyoming-sunset.png
+taxonomy:
+    tag:
+        - 'landscape photo'
+        - 'ou libraries'
+hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
+hero_image: wyoming-sunset.png
+feed:
+    limit: 10
 ```
 
-### x. title
+### 9. Parks
 
 #### Content
 
-Title:
+Title: ```CLIP: Parks```
 
 Content: 
 ```md
-CLIP:
+CLIP: I don't love camping, but I do enjoy hiking (in good weather) and enjoying beautiful nature.
+
+===
+
+The top four parks I have visited are Point Reyes, Yellowstone, Big Bend, and the Grand Canyon, although there are many parks I have not yet been too.
+
+Here is a gorgeous picture of Arch Rock, a location my family and I hiked to at Point Reyes:
+
+![Decorative: Arch Rock](arch-rock-point-reyes.png)
+
+This picture does not do Yellowstone justice _at all_, but no one picture can:
+
+![Decorative: Yellowstone](yellowstone-vista.png)
 ```
 
 Page Media:
+- _Arch Rock, Point Reyes National Seashore_ **as** _arch-rock-point-reyes.png_
+- _Yellowstone Vista_ **as** _yellowstone-vista.png_
 
 #### Options
 
 Tags:
+- landscape photo
+- just for fun
 
 #### Blog Item
 
-Hero Classes:
+Hero Classes: _none_
 
-Hero Image:
+Hero Image: _none_
 
 #### Frontmatter
 ```yaml
-CLIP: 
+CLIP: title: Parks
+media_order: 'arch-rock-point-reyes.png,yellowstone-vista.png'
+taxonomy:
+    tag:
+        - 'landscape photo'
+        - 'just for fun'
+feed:
+    limit: 10
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-### x. title
+### 10. Requesting Books
 
 #### Content
 
-Title:
+Title: ```CLIP: Requesting Books```
 
 Content: 
 ```md
-CLIP:
+CLIP: Have you ever found the perfect book or article, only to run into issues actually obtaining it from the library? Sooner Xpress and ILL may be able to help.
+
+===
+
+If you are looking for a resource the library owns, most likely your issue is either that, although it is supposed to be on the shelf, you cannot find it, or that it is currently checked out. You should first make certain that you are looking in the right place - check the Discover search results to see where the book is listed. If it isn't in the main library stacks it might be in a branch library, Special Collections, or Reserves. Special Collections books are non-circulating, but you can read them while you are at the library. Reserve books are placed there at the request of professors who will be requiring them for class. These books have a four hour checkout time, which means that, while you can't take it home with you for weeks on end, it will actually be available a lot more often.
+
+Assuming the book is not in Special Collections or Reserves, you can request it via Sooner Xpress. The option to do this will be on the Discover page for the book. You can specify which library you want to pick it up from, and you will be notified by email when it is ready for you. This is great for reserving a popular book with a waiting list, for reserving a book when you don't come to the library very often, or for reserving a book you are having trouble finding.
+
+If the resource you are looking for is not one we have access to, you can make an InterLibrary Loan (ILL) request. Even if you do not go to OU, many libraries participate in ILL, so check with your local library. You may realize you have access to a lot more books and articles than you thought you did! Before filling out an ILL request, make sure that you are not requesting a textbook or something we already have access to. For example, if we have a book on Reserve or in Special Collections, ILL will probably deny the request.
+
+If you have any questions, please [contact us](https://libraries.ou.edu/content/contact-us). We are always happy to help you get access to the resources you want or need.
 ```
 
-Page Media:
+Page Media: _none_
 
 #### Options
 
 Tags:
+- ou libraries
 
 #### Blog Item
 
-Hero Classes:
+Hero Classes: _none_
 
-Hero Image:
+Hero Image: _none_
 
 #### Frontmatter
 ```yaml
-CLIP: 
+CLIP: title: 'Requesting Books'
+taxonomy:
+    tag:
+        - 'ou libraries'
+feed:
+    limit: 10
 ```
