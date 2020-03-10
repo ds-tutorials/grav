@@ -21,19 +21,16 @@ Remember for each of these to use the _Item_ template, to not make the page visi
 ![The Add Page dialog box. Page Title: Sample Title. Folder Name: sample-title. Parent Page: --> (blog) Blog. Page Template: Item. Visible: No.](add-sample-page.png)
 
 The following details will be provided for each page:
+
 - Content Tab
   - Title
   - Content (for the Markdown editor)
   - Page Media
-
 - Options Tab
   - Tags (both a list of tags and the yaml text that would go into the Frontmatter)
-
 - Blog Item Tab
   - Hero Classes
   - Hero Image
-
-
 - Frontmatter
 
 The Frontmatter section will provide the yaml text that would go into the Frontmatter if you are using Expert mode. If you choose to use Expert mode, all you have to do is upload any images specified to the Page Media, copy the Content into the Markdown editor, and copy the Frontmatter.
