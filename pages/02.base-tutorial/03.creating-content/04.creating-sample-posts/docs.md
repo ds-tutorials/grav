@@ -16,6 +16,8 @@ You can make your own posts if you like, but I have provided several sample post
 
 Remember for each of these to use the _Item_ template, to not make the page visible, and to set the parent page to _(blog) Blog_, as below.
 
+! If you accidentally make a page visible (you will notice because there will be a dropdown menu for Blog on your website), you can change it in the _Advanced_ tab under Overrides. Find _Visible_ and click _Disabled_.
+
 ![The Add Page dialog box. Page Title: Sample Title. Folder Name: sample-title. Parent Page: --> (blog) Blog. Page Template: Item. Visible: No.](add-sample-page.png)
 
 The following details will be provided for each page:
