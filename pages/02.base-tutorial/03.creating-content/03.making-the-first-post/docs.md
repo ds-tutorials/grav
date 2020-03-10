@@ -22,8 +22,8 @@ The dropdown seems relatively unobtrusive with just the one post, but if we cont
 
 Since the title of our first post is _Grav_, we should probably write something about Grav in the content. We can start by using the markdown syntax for a header.
 
-```md CLIP
-## What is Grav?
+```md
+CLIP: ## What is Grav?
 
 ```
 
