@@ -39,9 +39,9 @@ The Frontmatter section will provide the yaml text that would go into the Frontm
 
 #### Cotent
 
-**Title:** `CLIP: Media in Markdown`
+Title: `CLIP: Media in Markdown`
 
-**Content:**
+Content:
 
 ```md
 CLIP: As mentioned in the [tutorial](http://ds-tutorials.oucreate.com/base-tutorial/content/media), there are two ways to add images to your pages. The tutorial walks you through uploading an image and then setting it as the "hero image" used by the page template. It also provides a brief description of adding images within the content. In this post we will demonstrate adding an image within the content.
@@ -57,21 +57,21 @@ The Markdown for adding an image looks like ![alt text](image url). If the media
 Note that for this post, there is only one piece of media added. The blog page displays the image on the summary, but the post page does not show the image as a header/hero. If you do not want to use a header image, but still want to show an image with your post, this is an excellent way to do so.
 ```
 
-**Page Media:**
+Page Media:
 - _Total Solar Eclipse 2017, Wyoming_ **as** _eclipse-2017.png_
 
 #### Options
 
-**Tags:**
+Tags:
 - tutorial
 - markdown
 - astronomy
 
 #### Blog Item
 
-**Hero Classes:** none
+Hero Classes: _none_
 
-**Hero Image:** none
+Hero Image: _none_
 
 #### Frontmatter
 
@@ -91,9 +91,9 @@ feed:
 
 #### Content
 
-**Title:** `CLIP: File Naming Convenetions`
+Title: `CLIP: File Naming Convenetions`
 
-**Content:**
+Content:
 ```md
 CLIP: I have always had a difficult time naming things - whether it is an essay for a class, a character in a story, or even a simple file or folder on my computer. There are so many possible names, and it can feel overwhelming trying to make sure I choose the best name.
 
@@ -137,21 +137,21 @@ The material for this post comes from the Data Carpentry lesson [File Organizati
 Photo: Yellowstone by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
-**Page Media:**
-- _Yellowstone_ as _yellowstone.png_
+Page Media:
+- _Yellowstone_ **as** _yellowstone.png_
 
 #### Options
 
-**Tags:**
+Tags:
 - the carpentries
 - landscape photo
 - yellowstone
 
 #### Blog Item
 
-**Hero Classes:** `CLIP: title-h1h2 text-light overlay-dark-gradient`
+Hero Classes: `CLIP: title-h1h2 text-light overlay-dark-gradient`
 
-**Hero Image:** yellowstone.png
+Hero Image: _yellowstone.png_
 
 #### Frontmatter
 
@@ -173,9 +173,10 @@ feed:
 
 #### Content
 
-**Title:** `CLIP: Telescopes`
+Title: `CLIP: Telescopes`
 
-**Content:**
+Content:
+
 ```md
 CLIP: Did you know you can check out a telescope at Bizzell Memorial Library? 
 
@@ -190,22 +191,79 @@ OU Libraries has a rich technology lending program, which now includes astronomy
 The Southern Milky Way, New Zealand by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
-**Page Media:**
+Page Media:
 - _The Southern Milky Way, New Zealand_ as _milky-way.png_
 
 #### Options
 
-**Tags:**
+Tags:
 - astronomy
 - ou libraries
 
 #### Blog Item
 
-**Hero Classes:** `CLIP: title-h1h2 text-light overlay-dark-gradient`
+Hero Classes: `CLIP: title-h1h2 text-light overlay-dark-gradient`
 
-**Hero Image:** milky-way.png
+Hero Image: _milky-way.png_
 
 #### Frontmatter
+
+```yaml
+CLIP: title: Telescopes
+media_order: milky-way.png
+taxonomy:
+    tag:
+        - astronomy
+        - 'ou libraries'
+hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
+hero_image: milky-way.png
+feed:
+    limit: 10
+```
+
+### 4. Configuring Quark
+
+#### Content
+
+Title: `CLIP: Configuring Quark`
+
+Content: 
+```md
+CLIP: As of this post, Quark is the default theme for Grav websites. It has a number of configurable options that you may want to check out.
+
+===
+
+To access these options, go to the _Themes_ tab in your admin panel and click on Quark. The most likely options you will be interested in are the grid size and custom logo options.
+
+The grid size determines the maximum width of the frame for your website and by default is set to _Large_. I personally prefer _Extra Large_, as _Large_ creates large swathes of empty space on either side of the blog when I use a large monitor. Try changing the settings and see how that changes your blog.
+
+The custom logo replaces the Grav logo at the top left. You could use a personal or organization logo, or even take a screenshot of your name in a nice font.
+```
+
+Page Media: _none_
+
+#### Options
+
+Tags:
+- grav
+- tutorial
+
+#### Blog Item
+
+Hero Classes: _none_
+
+Hero Image: _none_
+
+#### Frontmatter
+```yaml
+CLIP: title: 'Configuring Quark'
+taxonomy:
+    tag:
+        - grav
+        - tutorial
+feed:
+    limit: 10
+```
 
 ### x. title
 
@@ -213,7 +271,10 @@ The Southern Milky Way, New Zealand by [Wendy Acker](https://www.flickr.com/peop
 
 Title:
 
-Content:
+Content: 
+```md
+CLIP:
+```
 
 Page Media:
 
@@ -228,6 +289,9 @@ Hero Classes:
 Hero Image:
 
 #### Frontmatter
+```yaml
+CLIP: 
+```
 
 ### x. title
 
@@ -235,7 +299,10 @@ Hero Image:
 
 Title:
 
-Content:
+Content: 
+```md
+CLIP:
+```
 
 Page Media:
 
@@ -250,6 +317,9 @@ Hero Classes:
 Hero Image:
 
 #### Frontmatter
+```yaml
+CLIP: 
+```
 
 ### x. title
 
@@ -257,7 +327,10 @@ Hero Image:
 
 Title:
 
-Content:
+Content: 
+```md
+CLIP:
+```
 
 Page Media:
 
@@ -272,6 +345,9 @@ Hero Classes:
 Hero Image:
 
 #### Frontmatter
+```yaml
+CLIP: 
+```
 
 ### x. title
 
@@ -279,7 +355,10 @@ Hero Image:
 
 Title:
 
-Content:
+Content: 
+```md
+CLIP:
+```
 
 Page Media:
 
@@ -294,6 +373,38 @@ Hero Classes:
 Hero Image:
 
 #### Frontmatter
+```yaml
+CLIP: 
+```
+
+### x. title
+
+#### Content
+
+Title:
+
+Content: 
+```md
+CLIP:
+```
+
+Page Media:
+
+#### Options
+
+Tags:
+
+#### Blog Item
+
+Hero Classes:
+
+Hero Image:
+
+#### Frontmatter
+```yaml
+CLIP: 
+```
+
 
 
 
@@ -312,7 +423,10 @@ Hero Image:
 
 Title:
 
-Content:
+Content: 
+```md
+CLIP:
+```
 
 Page Media:
 
@@ -327,3 +441,6 @@ Hero Classes:
 Hero Image:
 
 #### Frontmatter
+```yaml
+CLIP: 
+```
