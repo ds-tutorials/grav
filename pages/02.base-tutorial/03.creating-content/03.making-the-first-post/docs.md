@@ -30,7 +30,7 @@ CLIP: ## What is Grav?
 Then we can answer our question with some information from the [Grav page](http://grav.ds-tutorials.oucreate.com/overview/grav) in this tutorial. Markdown blockquotes are written using the `>` symbol.
 
 ```md
-To quote the Grav documentation:
+CLIP: To quote the Grav documentation:
 
 > Grav is a **Fast**, **Simple**, and **Flexible** file-based Web-platform.
 > 
@@ -42,7 +42,7 @@ If you have heard of Wordpress, Grav is very similar. It streamlines website bui
 To add a fancy blue box with the link to the Grav documentation we can make use of the _Markdown Notices_ plugin that was automatically added when we installed Grav. There are yellow, red, blue, and green notices. The color/type of notice is determined by the number of exclamation points we put before it. Since blue is the third color, we need to use three exclamation points.
 
 ```md
-!!! The Grav documentation is very extensive. It is available **[here](https://learn.getgrav.org/16**).
+CLIP: !!! The Grav documentation is very extensive. It is available **[here](https://learn.getgrav.org/16**).
 
 ```
 
@@ -59,7 +59,7 @@ Like _Blog_, the _Item_ template supports adding an image as a header. As before
 Along with the image, I will add some credit information in the content. It is important to always give credit for any images you use!
 
 ```md
-### Photo Credit
+CLIP: ### Photo Credit
 
 Rainbow over glacier, New Zealand by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://www.creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
@@ -79,7 +79,7 @@ Pressing enter/return creates the tag. We can continue making as many tags as we
 The tags will be stored in the frontmatter of the page they are added to. If we switch to expert mode, the tags we just added will look something like this:
 
 ```yaml
-taxonomy:
+CLIP: taxonomy:
     tag:
         - grav
         - tutorial
