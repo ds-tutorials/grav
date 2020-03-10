@@ -78,9 +78,13 @@ Hero Image: none
 #### Frontmatter
 
 ```yaml
-CLIP: taxonomy:
+CLIP: title: 'Media in Markdown'
+media_order: eclipse-2017.png
+taxonomy:
     tag:
         - tutorial
         - markdown
         - astronomy
+feed:
+    limit: 10
 ```
