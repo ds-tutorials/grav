@@ -48,13 +48,15 @@ CLIP: As mentioned in the [tutorial](http://ds-tutorials.oucreate.com/base-tutor
 
 ![An image from the total solar eclipse of 2017, taken from Casper Wyoming some time before totality.](eclipse-2017.png)
 
-Total Solar Eclipse 2017, Wyoming by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
 The Markdown for adding an image looks like ![alt text](image url). If the media has been added to the page that is using it (by uploading it the same way you would before setting it as the hero image), the url can simply be the name of the image, like this: ![alt text](image.png) or ![alt text](./image.png). If you are using an image located elsewhere on your website you will need to provide either the full url or the relative url (for example, image.png and ./image.png are relative urls). I strongly recommend uploading the images you use directly to the page (or to a seperate folder on your website). An image posted elsewhere on the internet might be taken down at some point, leaving you with a broken image link.
 
 ! Please note the alt text (or alternative text) section in the Markdown for adding an image. It is extremely important to provide good alt text for any image you add to your content. If the image is ever removed, the broken link will display the alt text instead, allowing users to at least know what used to be there. More importantly, visually impaired users can benefit from good alt text, since they may not be able to make use of the image itself.
 
 Note that for this post, there is only one piece of media added. The blog page displays the image on the summary, but the post page does not show the image as a header/hero. If you do not want to use a header image, but still want to show an image with your post, this is an excellent way to do so.
+
+### Photo Credit
+
+Total Solar Eclipse 2017, Wyoming by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
 Page Media:
@@ -186,7 +188,7 @@ The Orion StarBlast 4.5" reflector telescope is the preferred telescope of the [
 
 OU Libraries has a rich technology lending program, which now includes astronomy equipment like the telescope. For more information about telescope lending, check out [this guide](http://guides.ou.edu/telescope).
 
-## Photo Credit
+### Photo Credit
 
 The Southern Milky Way, New Zealand by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
@@ -281,7 +283,7 @@ It can be difficult to know what to believe and what to ignore when anyone could
 
 Fortunately, it is possible to do some simple digging to investigate any given claim without having devote very much time at all. The process for this is covered in the two and a half to three hour online curriculum [Check, Please!](https://www.notion.so/Check-Please-Starter-Course-ae34d043575e42828dc2964437ea4eed). Even if you don't have enough time to go through all of it, just working through the first lesson will give you a good introduction to media literacy and becoming an informed consumer.
 
-## Photo Credit
+### Photo Credit
 
 Pancake Rocks, New Zealand by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
@@ -330,6 +332,10 @@ Whatever your interests (or needs), there are likely at least a few workshops yo
 Don't see a workshop you want? See a workshop you want that isn't offered at a good time? View our [list of on-request workshops](https://libraries.ou.edu/content/university-libraries-request-workshops). For most of these, as long as five people plan to attend we will schedule one for you. The Carpentry workshops are an exception, as they are very long (2 8-hour days). They require a minimum of fifteen participants.
 
 If we have a workshop you are interested in that is not listed as an on-request workshop, or if you don't see a workshop on something that you want to learn, please [contact us](https://libraries.ou.edu/content/contact-us) and let us know! Your feedback can help inform our future directions, and we may be able to direct you to relevant resources, if nothing else.
+
+### Photo Credit
+
+Texas Wildflowers by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
 Page Media:
@@ -406,6 +412,9 @@ This trilogy was written by Elizabeth Moon. There is also a sequel trilogy. Moon
 - The webserial [_The Gods are Bastards_](https://tiraas.net/2014/08/20/book-1-prologue/) by D. D. Webb (high fantasy and western setting, in-progress)
 - The weberial [_A Practrical Guide to Evil_](https://practicalguidetoevil.wordpress.com/2015/03/25/prologue/) by ErraticErrata (David Verburg) (in-progress)
 
+### Photo Credit
+
+Queenstown Hill, New Zealand by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
 Page Media:
@@ -454,6 +463,10 @@ Oftentimes research requires a bit more specificity in searching. For example, y
 Not sure what database to use? There are so many options that it can easily become overwhelming. For more general article searching, I typically start with Academic Search Primiere, EBSCO, JSTOR, or ProQuest. However, we have other resources available to help you choose. You can start by checking out our [research guides](https://libraries.ou.edu/guides-index) linked to from the library website, or by going to [guides.ou.edu](https://guides.ou.edu/home). Here you can look up the subject you are researching and see what databases we recommend, as well as get information on other potential sources of information or tips for how to find what you need.
 
 For additional research help, visit the Learning Lab on Lower Level One of Bizzell Memorial Library, [contact us](https://libraries.ou.edu/content/contact-us), or contact/schedule an appointment with your subject librarian.
+
+### Photo Credit
+
+Wyoming Sunset by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
 Page Media:
@@ -506,6 +519,12 @@ Here is a gorgeous picture of Arch Rock, a location my family and I hiked to at 
 This picture does not do Yellowstone justice _at all_, but no one picture can:
 
 ![Decorative: Yellowstone](yellowstone-vista.png)
+
+### Photo Credit
+
+Arch Rock, Point Reyes National Seashore by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+Yellowstone Vista by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
 Page Media:
