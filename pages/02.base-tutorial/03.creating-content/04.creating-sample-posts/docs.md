@@ -33,6 +33,7 @@ The following details will be provided for each page:
   - Hero Classes
   - Hero Image
 
+
 - Frontmatter
 
 The Frontmatter section will provide the yaml text that would go into the Frontmatter if you are using Expert mode. If you choose to use Expert mode, all you have to do is upload any images specified to the Page Media, copy the Content into the Markdown editor, and copy the Frontmatter.
