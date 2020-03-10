@@ -1,5 +1,6 @@
 ---
 title: 'Creating Sample Posts'
+media_order: add-sample-page.png
 taxonomy:
     category:
         - docs
