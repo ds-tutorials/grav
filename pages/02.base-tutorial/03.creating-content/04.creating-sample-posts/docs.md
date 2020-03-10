@@ -58,7 +58,7 @@ Note that for this post, there is only one piece of media added. The blog page d
 ```
 
 Page Media:
-- _Total Solar Eclipse 2017, Wyoming_ as _eclipse-2017.png_
+- _Total Solar Eclipse 2017, Wyoming_ **as** _eclipse-2017.png_
 
 #### Options
 
