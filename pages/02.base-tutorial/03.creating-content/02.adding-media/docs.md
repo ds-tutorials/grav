@@ -48,7 +48,7 @@ We can also explicitly set the image we added as the hero image to be used by th
 
 The page now looks a lot nicer.
 
-[ui-browser address="http://grav.ds-tutorials.oucreate.com/grav-demo/blog"]
+[ui-browser address="http://ds-tutorials.oucreate.com/grav-demo/blog"]
 ![The Blog page on the website now shows the content in light text on top of the image we added.](after-adding-media.png)
 [/ui-browser]
 
