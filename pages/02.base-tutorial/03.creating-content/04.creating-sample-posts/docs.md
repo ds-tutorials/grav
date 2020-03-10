@@ -29,7 +29,7 @@ The following details will be provided for each page:
 - Options Tab
   - Tags (both a list of tags and the yaml text that would go into the Frontmatter)
 
-- Item Config Tab
+- Blog Item Tab
   - Hero Classes
   - Hero Image
 
@@ -69,7 +69,7 @@ Tags:
 - markdown
 - astronomy
 
-#### Item Config
+#### Blog Item
 
 Hero Classes: none
 
@@ -88,3 +88,13 @@ taxonomy:
 feed:
     limit: 10
 ```
+
+### x. title
+
+#### Content
+
+#### Options
+
+#### Blog Item
+
+#### Frontmatter
