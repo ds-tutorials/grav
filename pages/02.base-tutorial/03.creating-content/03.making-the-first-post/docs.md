@@ -105,7 +105,9 @@ Unfortunately, while the image we added shows up on the main blog page, it is no
 
 Since the photo is kind of dark, we could do what we did for our blog page and add the hero class _text-light_. For this and future posts, I am actually going to include three classes: _title-h1h2_, _text-light_, and _overlay-dark-gradient_. Using the same classes for all posts will make the blog visually consistent. Since I am overlaying the image with a dark gradient, the light text should show up well, even if the picture isn't initially super dark. The first class, _title-h1h2_, changes the style of the heading text.
 
-![Hero Section in the Item Config tab. Hero Classes: title-h1h2 text-light overlay-dark-gradient. Hero Image: rainbow-over-glacier-nz.png.](setting-hero-image.png)
+! Note that for the _Blog_ template, the tab with the above options is called _Blog Config_. For the _Item_ template, this tab is called _Blog Item_.
+
+![Hero Section in the Blog Item tab. Hero Classes: title-h1h2 text-light overlay-dark-gradient. Hero Image: rainbow-over-glacier-nz.png.](setting-hero-image.png)
 
 Now when we click on the post (or refresh the page) the image appears.
 
