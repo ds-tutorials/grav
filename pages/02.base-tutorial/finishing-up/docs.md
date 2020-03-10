@@ -2,7 +2,7 @@
 title: 'Finishing Up'
 taxonomy:
     category:
-        - docs
+        - notes
 ---
 
 - should toggle plugins to see how the website reacts
