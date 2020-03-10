@@ -171,19 +171,34 @@ feed:
     limit: 10
 ```
 
-### x. title
+### 3. Telescopes
 
 #### Content
 
-Title:
+Title: `CLIP: Telescopes`
 
 Content:
+```md
+CLIP: Did you know you can check out a telescope at Bizzell Memorial Library? 
+
+===
+
+The Orion StarBlast 4.5" reflector telescope is the preferred telescope of the [Library Telescope Program](https://www.astroleague.org/content/library-telescope-program). This program helps public libraries across the U.S. obtain telescopes their patrons can check out. The program advocates for a series of key modifications to make these telescopes library-friendly right out of the box, and libraries not affiliated with the program are still able to purchase the telescopes.
+
+OU Libraries has a rich technology lending program, which now includes astronomy equipment like the telescope. For more information about telescope lending, check out [this guide](http://guides.ou.edu/telescope).
+
+## Photo Credit
+
+The Southern Milky Way, New Zealand by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+```
 
 Page Media:
+- _The Southern Milky Way, New Zealand_ as _milky-way.png_
 
 #### Options
 
 Tags:
+- 
 
 #### Blog Item
 
