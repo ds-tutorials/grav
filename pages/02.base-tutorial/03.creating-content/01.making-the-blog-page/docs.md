@@ -32,7 +32,7 @@ After clicking the _Save_ button at the top right, the page editor will look lik
 The blog page is not supposed to take a lot of content. A heading and subheading is all it really needs. In markdown, headings are denoted with the hashtag symbol. Type
 
 ```md
-# My Example Blog
+CLIP: # My Example Blog
 
 ## Learning to use Grav
 ```
