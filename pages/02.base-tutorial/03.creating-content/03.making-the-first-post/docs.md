@@ -89,7 +89,7 @@ CLIP: taxonomy:
 
 If we take a look at our website, we can see our new post.
 
-[ui-browser address="http://grav.ds-tutorials.oucreate.com/grav-demo/blog"]
+[ui-browser address="http://ds-tutorials.oucreate.com/grav-demo/blog"]
 ![A box has been added to the Blog page with information from the blog post we have added. It shows the image we uploaded, the date of posting, the title, a portion of the content, and the tags.](blog-first-post.png)
 [/ui-browser]
 
@@ -97,7 +97,7 @@ If we take a look at our website, we can see our new post.
 
 We can click on the post to switch to that page.
 
-[ui-browser address="http://grav.ds-tutorials.oucreate.com/grav-demo/blog/grav"]
+[ui-browser address="http://ds-tutorials.oucreate.com/grav-demo/blog/grav"]
 ![The page for our new post shows title, date, tags, and content but no image.](first-post.png)
 [/ui-browser]
 
@@ -109,7 +109,7 @@ Since the photo is kind of dark, we could do what we did for our blog page and a
 
 Now when we click on the post (or refresh the page) the image appears.
 
-[ui-browser address="http://grav.ds-tutorials.oucreate.com/grav-demo/blog/grav"]
+[ui-browser address="http://ds-tutorials.oucreate.com/grav-demo/blog/grav"]
 ![The page for our new post now displays the title, date, and tags on top of the chosen image.](first-post-image.png)
 [/ui-browser]
 
@@ -123,6 +123,6 @@ The summary delimiter tells Grav to end the summary at this point if the summary
 
 Now when we go to our blog page we can see that the card is shorter, since the summary ends as soon as it reaches the delimiter we added.
 
-[ui-browser address="http://grav.ds-tutorials.oucreate.com/grav-demo/blog"]
+[ui-browser address="http://ds-tutorials.oucreate.com/grav-demo/blog"]
 ![The box for our new blog post on the Blog page is the same as before, except that the portion of content displays ends immediately after the blockquote.](after-summary-delimiter.png)
 [/ui-browser]
