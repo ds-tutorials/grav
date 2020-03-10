@@ -12,9 +12,9 @@ The other way is to add media to a page with a template that supports showing me
 
 ## Media Used in This Tutorial
 
-The photos I use in this tutorial are available from [Flickr](https://www.flickr.com/photos/theodwynn/albums/72157712814676952). You are welcome to download and use these for the tutorial.
+The photos I use in this tutorial are available from [flickr](https://www.flickr.com/photos/theodwynn/albums/72157712814676952). You are welcome to download and use these for the tutorial.
 
-! When downloading images I always choose the _Original Size_ option to get the best quality image. You can choose any size you like, but keep in mind that the lower the size, the lower the quality. I also changed all of my images to .png instead of .jpg after downloading. This is because .png images do not lose quality when they are compressed.
+! When downloading images I always choose the _Original Size_ option to get the best quality image. You can choose any size you like, but keep in mind that the lower the size, the lower the quality. I also changed all of my images to .png instead of .jpg after downloading. This is because .png images do not lose quality when they are compressed. Please make sure that your file extensions are visible if you change the image to .png. Otherwise you might end up having `file-name.png.jpg`, which would not be very helpful.
 
 ## Adding Images
 
@@ -24,7 +24,7 @@ Whether we are including an image within our content as we will do later or addi
 
 ! Note that the Page Media section will not initially be available on a new page. Any new page must be saved first before images can be added. This is because Grav will not create the page folder until after the first save, but that folder is where images uploaded to the page are saved.
 
-When we have added and saved an image, the content editor will show it in the media box.
+If you are using the images from flickr, download _The Southern Milkyway, New Zealand_. I have saved it as milky-way.png. When we have added and saved an image, the content editor will show it in the media box.
 
 ![The milky-way.png image is shown in the Page Media box where the text 'Drop your files here etc.' used to be.](added-media.png)
 
