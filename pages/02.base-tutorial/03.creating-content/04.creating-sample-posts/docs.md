@@ -39,9 +39,9 @@ The Frontmatter section will provide the yaml text that would go into the Frontm
 
 #### Cotent
 
-Title: `CLIP: Media in Markdown`
+**Title:** `CLIP: Media in Markdown`
 
-Content:
+**Content:**
 
 ```md
 CLIP: As mentioned in the [tutorial](http://ds-tutorials.oucreate.com/base-tutorial/content/media), there are two ways to add images to your pages. The tutorial walks you through uploading an image and then setting it as the "hero image" used by the page template. It also provides a brief description of adding images within the content. In this post we will demonstrate adding an image within the content.
@@ -57,21 +57,21 @@ The Markdown for adding an image looks like ![alt text](image url). If the media
 Note that for this post, there is only one piece of media added. The blog page displays the image on the summary, but the post page does not show the image as a header/hero. If you do not want to use a header image, but still want to show an image with your post, this is an excellent way to do so.
 ```
 
-Page Media:
+**Page Media:**
 - _Total Solar Eclipse 2017, Wyoming_ **as** _eclipse-2017.png_
 
 #### Options
 
-Tags:
+**Tags:**
 - tutorial
 - markdown
 - astronomy
 
 #### Blog Item
 
-Hero Classes: none
+**Hero Classes:** none
 
-Hero Image: none
+**Hero Image:** none
 
 #### Frontmatter
 
@@ -91,9 +91,9 @@ feed:
 
 #### Content
 
-Title: `CLIP: File Naming Convenetions`
+**Title:** `CLIP: File Naming Convenetions`
 
-Content:
+**Content:**
 ```md
 CLIP: I have always had a difficult time naming things - whether it is an essay for a class, a character in a story, or even a simple file or folder on my computer. There are so many possible names, and it can feel overwhelming trying to make sure I choose the best name.
 
@@ -137,21 +137,21 @@ The material for this post comes from the Data Carpentry lesson [File Organizati
 Photo: Yellowstone by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
-Page Media:
+**Page Media:**
 - _Yellowstone_ as _yellowstone.png_
 
 #### Options
 
-Tags:
+**Tags:**
 - the carpentries
 - landscape photo
 - yellowstone
 
 #### Blog Item
 
-Hero Classes: `CLIP: title-h1h2 text-light overlay-dark-gradient`
+**Hero Classes:** `CLIP: title-h1h2 text-light overlay-dark-gradient`
 
-Hero Image: yellowstone.png
+**Hero Image:** yellowstone.png
 
 #### Frontmatter
 
@@ -173,9 +173,9 @@ feed:
 
 #### Content
 
-Title: `CLIP: Telescopes`
+**Title:** `CLIP: Telescopes`
 
-Content:
+**Content:**
 ```md
 CLIP: Did you know you can check out a telescope at Bizzell Memorial Library? 
 
@@ -190,19 +190,20 @@ OU Libraries has a rich technology lending program, which now includes astronomy
 The Southern Milky Way, New Zealand by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
-Page Media:
+**Page Media:**
 - _The Southern Milky Way, New Zealand_ as _milky-way.png_
 
 #### Options
 
-Tags:
-- 
+**Tags:**
+- astronomy
+- ou libraries
 
 #### Blog Item
 
-Hero Classes:
+**Hero Classes:** `CLIP: title-h1h2 text-light overlay-dark-gradient`
 
-Hero Image:
+**Hero Image:** milky-way.png
 
 #### Frontmatter
 
