@@ -27,7 +27,9 @@ The following details will be provided for each page:
   - Content (for the Markdown editor)
   - Page Media
 - Options Tab
-  - Tags (both a list of tags and the yaml text that would go into the Frontmatter)
+  - Date
+  - Category (always 'blog')
+  - Tags
 - Blog Item Tab
   - Hero Classes
   - Hero Image
@@ -37,7 +39,7 @@ The Frontmatter section will provide the yaml text that would go into the Frontm
 
 ### 1. Media in Markdown
 
-#### Cotent
+#### Content
 
 Title: `CLIP: Media in Markdown`
 
@@ -63,6 +65,10 @@ Page Media:
 - _Total Solar Eclipse 2017, Wyoming_ **as** _eclipse-2017.png_
 
 #### Options
+
+Date: July 22, 2019
+
+Category: blog
 
 Tags:
 - tutorial
