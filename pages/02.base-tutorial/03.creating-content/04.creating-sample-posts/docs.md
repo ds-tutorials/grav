@@ -86,7 +86,10 @@ Hero Image: _none_
 ```yaml
 CLIP: title: 'Media in Markdown'
 media_order: eclipse-2017.png
+date: '22-07-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
         - tutorial
         - markdown
@@ -150,6 +153,10 @@ Page Media:
 
 #### Options
 
+Date: Auguest 2, 2019
+
+Category: blog
+
 Tags:
 - the carpentries
 - landscape photo
@@ -166,10 +173,13 @@ Hero Image: _yellowstone.png_
 ```yaml
 CLIP: title: 'File Naming Conventions'
 media_order: yellowstone.png
+date: '02-08-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
-        - 'the carpentries'
         - 'landscape photo'
+        - 'the carpentries'
         - yellowstone
 hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
 hero_image: yellowstone.png
@@ -204,6 +214,10 @@ Page Media:
 
 #### Options
 
+Date: August 13, 2019
+
+Category: blog
+
 Tags:
 - astronomy
 - ou libraries
@@ -219,7 +233,10 @@ Hero Image: _milky-way.png_
 ```yaml
 CLIP: title: Telescopes
 media_order: milky-way.png
+date: '13-08-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
         - astronomy
         - 'ou libraries'
@@ -252,6 +269,10 @@ Page Media: _none_
 
 #### Options
 
+Date: August 29, 2019
+
+Category: blog
+
 Tags:
 - grav
 - tutorial
@@ -265,10 +286,13 @@ Hero Image: _none_
 #### Frontmatter
 ```yaml
 CLIP: title: 'Configuring Quark'
+date: '29-08-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
-        - grav
         - tutorial
+        - grav
 feed:
     limit: 10
 ```
@@ -299,6 +323,10 @@ Page Media:
 
 #### Options
 
+Date: October 4, 2019
+
+Category: blog
+
 Tags:
 - landscape photo
 
@@ -312,7 +340,10 @@ Hero Image: _pancake-rocks-nz.png_
 ```yaml
 CLIP: title: 'Media Literacy'
 media_order: pancake-rocks-nz.png
+date: '04-10-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
         - 'landscape photo'
 hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
@@ -349,6 +380,10 @@ Page Media:
 
 #### Options
 
+Date: October 21, 2019
+
+Category: blog
+
 Tags:
 - landscape photo
 - ou libraries
@@ -363,7 +398,10 @@ Hero Image: _texas-wildflowers.png_
 ```yaml
 CLIP: title: 'Library Workshops'
 media_order: texas-wildflowers.png
+date: '21-10-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
         - 'landscape photo'
         - 'ou libraries'
@@ -428,6 +466,10 @@ Page Media:
 
 #### Options
 
+Date: November 3, 2019
+
+Category: blog
+
 Tags:
 - landscape photo
 - just for fun
@@ -442,10 +484,14 @@ Hero Image: _queenstown-hill-nz.png_
 ```yaml
 CLIP: title: 'Fantasy Books'
 media_order: queenstown-hill-nz.png
+date: '03-11-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
         - 'landscape photo'
         - 'just for fun'
+visible: false
 hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
 hero_image: queenstown-hill-nz.png
 feed:
@@ -480,6 +526,10 @@ Page Media:
 
 #### Options
 
+Date: November 8, 2019
+
+Category: blog
+
 Tags:
 - landscape photo
 - ou libraries
@@ -494,7 +544,10 @@ Hero Image: _wyoming-sunset.png_
 ```yaml
 CLIP: title: 'Library Resources and Research Help'
 media_order: wyoming-sunset.png
+date: '08-11-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
         - 'landscape photo'
         - 'ou libraries'
@@ -539,6 +592,10 @@ Page Media:
 
 #### Options
 
+Date: November 27, 2019
+
+Category: blog
+
 Tags:
 - landscape photo
 - just for fun
@@ -553,7 +610,10 @@ Hero Image: _none_
 ```yaml
 CLIP: title: Parks
 media_order: 'arch-rock-point-reyes.png,yellowstone-vista.png'
+date: '27-11-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
         - 'landscape photo'
         - 'just for fun'
@@ -586,6 +646,10 @@ Page Media: _none_
 
 #### Options
 
+Date: December 12, 2019
+
+Category: blog
+
 Tags:
 - ou libraries
 
@@ -598,7 +662,10 @@ Hero Image: _none_
 #### Frontmatter
 ```yaml
 CLIP: title: 'Requesting Books'
+date: '12-12-2019 00:00'
 taxonomy:
+    category:
+        - blog
     tag:
         - 'ou libraries'
 feed:
