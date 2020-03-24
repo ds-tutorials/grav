@@ -1,6 +1,6 @@
 ---
 title: 'Finishing Up'
-media_order: 'sidebar-text.png,add-modules-page.png,default-display-order.png,new-display-order.png,children-display-order.png'
+media_order: 'default-display-order.png,new-display-order.png,children-display-order.png,add-modules-page.png'
 taxonomy:
     category:
         - docs
@@ -51,3 +51,5 @@ Example:
 
 This is a sample blog following the [Grav tutorial](https://www.ds-tutorials.oucreate.com/grav) maintained by [Digital Scholarship @ OU Libraries](https://libraries.ou.edu/content/digital-scholarship-ou-libraries).
 ```
+
+This section will be inserted between _Random Article_ and _Popular Tags_ in the sidebar.
