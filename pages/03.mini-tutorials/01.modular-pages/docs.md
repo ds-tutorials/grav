@@ -2,7 +2,7 @@
 title: 'Modular Pages'
 taxonomy:
     category:
-        - notes
+        - docs
 ---
 
 Your page content goes here.
