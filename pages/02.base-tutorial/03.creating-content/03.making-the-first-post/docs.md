@@ -1,6 +1,6 @@
 ---
 title: 'Making the First Post'
-media_order: 'add-post.png,added-tags.png,adding-media-and-credit.png,after-summary-delimiter.png,blog-first-post.png,first-post-image.png,first-post.png,first-tag.png,grav-content.png,navigation-dropdown.png,setting-hero-image.png,summary-delimiter.png'
+media_order: 'add-post.png,added-tags.png,adding-media-and-credit.png,blog-first-post.png,first-post-image.png,first-post.png,first-tag.png,grav-content.png,navigation-dropdown.png,setting-hero-image.png,summary-delimiter.png,complete-post.png,page-options.png'
 taxonomy:
     category:
         - docs
@@ -115,9 +115,19 @@ Now when we click on the post (or refresh the page) the image appears.
 ![The page for our new post now displays the title, date, and tags on top of the chosen image.](first-post-image.png)
 [/ui-browser]
 
-## Date
+## Dates and Archives
 
-You may notice that there is a date associated with the blog post. We can set the date in the header, but if we do not Grav will default to displaying the date the page was last modified. In this case that is the same as the date created, but we may decide to modify the page in the future. Having the date change just because we fixed a typo or moved where the page's folder location (more on this later) would be rather inconvenient. We will therefore manually set the date.
+You may notice that there is a date associated with the blog post. We can set the date in the header, but if we do not Grav will default to displaying the date the page was last modified. In this case that is the same as the date created, but we may decide to modify the page in the future. Having the date change just because we fixed a typo or moved where the page's folder location (more on this later) would be rather inconvenient. This is especially important when we consider the _Archives_ plugin, which will display our pages based on this date. We will therefore manually set the date.
+
+First we need to go back to the _Options_ tab where we set our tags. The _Publishing_ section is just above _Taxonomies_, and _Date_ is the second option down. There are two other date options below that. _Published Date_ allows us to make a post that will only be published after the specified date and _Unpublished Date_ allows us to make a post that will be automatically unpublished after the specified date. We can ignore both of these.
+
+Clicking in the _Date_ box will provide a calendar date chooser. I chose July 17, 2019 because I want to provide an example with posts spread out across multiple months. The date chooser will automatically provide the current time. If we delete that time it will default to 00:00.
+
+There is one other thing we need to do if we want to use the _Archives_ plugin. _Archives_ includes a category filter which is set to _blog_ by default. Without this filter _Archives_ would display all of our pages, including our main page and the blog page itself. However, with the filter, _Archives_ is currently displaying nothing. Under _Taxonomies_ we need to add the category _blog_.
+
+After making these changes the _Options_ tab should look like this:
+
+![Publishing: Date: Checked, 17-07-2019 00:00. Taxonomies: Category: blog. Tags: 'landscape photo' 'tutorial' 'grav' 'new zealand'. All unmentioned fields are left default/empty.](page-options.png)
 
 ## Summaries
 
@@ -127,8 +137,8 @@ The summary delimiter tells Grav to end the summary at this point if the summary
 
 ![After the end of the Grav blockquote there is a blank line and then the summary delimiter '===' followed by another blank line and then the descriptive paragraph starting with 'If you have heard of Wordpress.'](summary-delimiter.png)
 
-Now when we go to our blog page we can see that the card is shorter, since the summary ends as soon as it reaches the delimiter we added.
+Now when we go to our blog page we can see that the card is shorter, since the summary ends as soon as it reaches the delimiter we added. We can also see that July 2019 has been added to the Archives section on the left sidebar.
 
 [ui-browser address="http://ds-tutorials.oucreate.com/grav-demo/blog"]
-![The box for our new blog post on the Blog page is the same as before, except that the portion of content displays ends immediately after the blockquote.](after-summary-delimiter.png)
+![The box for our new blog post on the Blog page is the same as before, except that the portion of content displays ends immediately after the blockquote.](complete-post.png)
 [/ui-browser]
