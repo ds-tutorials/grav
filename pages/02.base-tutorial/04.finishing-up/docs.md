@@ -2,7 +2,7 @@
 title: 'Finishing Up'
 taxonomy:
     category:
-        - notes
+        - docs
 ---
 
 Now that we have a set of sample posts to work with there are only a few more things to do before we have a properly functional blog.
