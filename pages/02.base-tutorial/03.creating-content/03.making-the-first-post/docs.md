@@ -93,7 +93,7 @@ If we take a look at our website, we can see our new post.
 ![A box has been added to the Blog page with information from the blog post we have added. It shows the image we uploaded, the date of posting, the title, a portion of the content, and the tags.](blog-first-post.png)
 [/ui-browser]
 
-## Potential Issues
+## Media Issues
 
 We can click on the post to switch to that page.
 
@@ -114,6 +114,10 @@ Now when we click on the post (or refresh the page) the image appears.
 [ui-browser address="http://ds-tutorials.oucreate.com/grav-demo/blog/grav"]
 ![The page for our new post now displays the title, date, and tags on top of the chosen image.](first-post-image.png)
 [/ui-browser]
+
+## Date
+
+You may notice that there is a date associated with the blog post. We can set the date in the header, but if we do not Grav will default to displaying the date the page was last modified. In this case that is the same as the date created, but we may decide to modify the page in the future. Having the date change just because we fixed a typo or moved where the page's folder location (more on this later) would be rather inconvenient. We will therefore manually set the date.
 
 ## Summaries
 
