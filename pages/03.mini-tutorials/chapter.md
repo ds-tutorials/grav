@@ -13,6 +13,10 @@ Content Under Development:
 
 - Modular Pages
   - creating a modular page to replace the home page
+- Markdown
+  - Best Practices
+  - Carousels and other fancy things
+  - Embedding things
 - Themes
   - choosing themes
   - skeletons
@@ -22,17 +26,15 @@ Content Under Development:
   - configuration (the email plugin)
   - which ones a theme supports
   - using non-theme plugins
+  - specific plugins
+    - forms
+    - related pages
+    - databases (sqlite)
+    - tnt search
 - Media
   - Media that is too big
   - Changing the section of an image displayed?
-- Forms
-  - general
-- Markdown
-  - Best Practices
-  - Carousels and other fancy things
-  - Embedding things
-- Special Topics
-  - Users and Permissions
-  - Databases (sqlite)
-  - Using tnt search?
+- Misc
+  - file structure and ordering
+  - users and permissions
 - Starting Over
