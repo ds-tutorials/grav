@@ -25,3 +25,5 @@ The blog displays all of our posts by making a collection, which we can customiz
 
 !!!! For more file structure options a mini tutorial is in development.
 
+## Sidebar Text
+
