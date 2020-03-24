@@ -1,5 +1,6 @@
 ---
 title: 'Modular Pages'
+published: false
 taxonomy:
     category:
         - docs
