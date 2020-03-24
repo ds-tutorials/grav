@@ -10,7 +10,17 @@ We should add several more posts to our blog so we can see how it will look when
 
 You can make your own posts if you like, but I have provided several sample posts that you can use as well. You can follow along on this page to make each of these posts.
 
-!!!! A sample repository is in the works where you will also be able to download these pages and upload them to your website using the file manager, instead.
+## Optional Download
+
+Instead of making the posts below you can instead download a zip file that you can replace your current _pages_ folder with. Making the posts manually may give you additional experience and information, but it may also be tedious, so this option is available as well.
+
+1. Download [pages.zip](https://github.com/ds-tutorials/grav-sample-pages/raw/master/pages.zip)
+2. Go to _create.ou.edu_ and open the _File Manager_. It should be the first option under the _Files_ section. Ignores this is you installed grav elsewhere.
+3. Navigate through your files to your grav install directory and go the _user_ folder.
+4. Upload the zip file.
+5. Delete the _pages_ folder.
+6. Extract _pages.zip_.
+7. You can now delete the zip file.
 
 ## The Posts
 
