@@ -53,3 +53,7 @@ This is a sample blog following the [Grav tutorial](https://www.ds-tutorials.ouc
 ```
 
 This section will be inserted between _Random Article_ and _Popular Tags_ in the sidebar.
+
+## Next Steps
+
+This marks the end of the base Grav tutorial. You should now be able to run your own blog. The mini tutorials, as they are created, will provide information for further customization and content creation. You can also check out the various documentation resources listed in the [introduction](https://www.ds-tutorials.oucreate.com/grav/) as well as the Readmes for any plugins or themes you are curious about.
