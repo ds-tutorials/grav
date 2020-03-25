@@ -1,6 +1,6 @@
 ---
 title: 'Modular Pages'
-media_order: 'font-awesome-icons.png,features-tab-layout.png,prefix-enabled.png,folder-numeric-prefix.png,add-modular-settings.png,change-page-template.png,add-modular.png,modular-setup.png,home-with-header.png,hero-image-settings.png'
+media_order: 'font-awesome-icons.png,features-tab-layout.png,prefix-enabled.png,folder-numeric-prefix.png,add-modular-settings.png,change-page-template.png,add-modular.png,modular-setup.png,home-with-header.png,hero-image-settings.png,menu-top.png,better-header.png,final-homepage.png'
 published: false
 taxonomy:
     category:
@@ -52,7 +52,7 @@ body_classes: 'title-center title-h1h2'
 
 This is a potential issue any time we change the template of a page. Although the fields in the editor's normal mode will typically auto-fill, they may not actually be set in the frontmatter. Clicking on the field before saving can fix that by making sure the admin panel registers that the field needs to be set.
 
-## Modular Hero
+## Hero Module
 
 In the Quark theme, there are three types of modular templates: Hero, Features, and Text. You may recall the term 'hero' from working on the Blog page. A hero is essentially a large image with text on top. The Blog template has a hero header built in, which the content goes on top of. The Modular template does not, so if we want a hero-style header, we will have to add one.
 
@@ -101,3 +101,72 @@ I will also upload the snowflakes image from the [tutorial album](https://www.fl
 While we do not _have_ to set this image as the hero image, it is good practice. We will also want to add the hero classes `CLIP: text-light overlay-dark-gradient`.
 
 ![From the _Hero_ tab: Hero Classes: text-light overlay-dark-gradient. Hero Image: snowflakes.jpg](hero-image-settings.png)
+
+After doing all of this:
+
+[ui-browser address="https://www.ds-tutorials.oucreate.com/grav-demo"]
+![](home-with-header.png)
+[/ui-browser]
+
+## Text Module
+
+1. Add new modular page
+ - Call it "About"
+ - Root should be home
+ - Use Text
+
+2. enable numeric prefix (and save)
+3. Note the new section for image position:
+
+![](image-position.png)
+
+4. I will use a photo of myself. You can use one of the photos from the flickr album or your own
+5. Put whatever text you like. If you can't think of anything consider using a lorem ipsum generator. (link)
+
+## Features Module
+
+1. add modular page called Interests using the Features template
+2. Enable numeric prefix (and save)
+3. Can add some content that will go above the features
+
+```md
+## Interests
+```
+
+4. Go to the Features tab (can choose standard instead of the small option)
+
+![](features-tab-layout.png)
+
+5. For each feature use the **Add Item** button on the right
+6. Can pick a font awesome icon to use
+
+![](font-awesome-icons.png)
+
+7. I am just using an icon and a header. You can experiment with text and links, however.
+8. The features are drag and drop, so don't worry if the order isn't exactly what you want to start with.
+
+## Fixing the Navigation
+
+As with the [one-page site example](https://demo.getgrav.org/onepage-skeleton/), the navigation bar at the top of the site references the modular pages we have added, rather than the rest of the website's pages.
+
+If this were a one-page website:
+
+We can start by changing how the pages appear on the navigation menu. This is easily done in the page editor on the Advanced tab. I would like the header to be referred to as "Top" in the navigation bar, but I really don't want to change the title of the page to Top. Setting the _Menu_ field to Top allows me to do this.
+
+![](menu-top.png)
+
+After changing the Menu fields of the other pages, the navigation bar looks like this.
+
+![](better-header.png)
+
+That's very nice and all, but this is not a one-page website. It would be more helpful for the navigation bar to help navigate the rest of the site. To do this we can go to the modular page (Home) and switch the editor to expert mode. In the frontmatter, we than have to type:
+
+```yaml
+onpage_menu: false
+```
+
+That is all it takes. The navigation bar should now look how we want it.
+
+[ui-browser address="http://ds-tutorials.oucreate.com/grav-demo"]
+![](final-homepage.png)
+[/ui-browser]
