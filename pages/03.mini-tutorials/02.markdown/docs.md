@@ -51,3 +51,12 @@ Shortcodes are (literally) short codes you can add to your markdown to make it d
 
 - fancy user interface options: tabs, accordion, browser wrapper, and more
 - check out the [README](https://github.com/getgrav/grav-plugin-shortcode-ui/blob/master/README.md)
+
+### Some Other Fancy Markdown Plugins
+
+- [Markdown Collapsible](https://github.com/X-Ryl669/grav-plugin-markdown-collapsible/blob/master/README.md) - lets you create collapsible blocks of text
+- [Markdown Color](https://github.com/getgrav/grav-plugin-markdown-color/blob/master/README.md) - lets you change the color of your text
+- [Markdown Details](https://github.com/bitstarr/grav-plugin-markdown-details/blob/master/README.md) - based on Markdown Collapsible, different type of collapsible text blocks
+- [Markdown Spoilers](https://github.com/regaez/grav-plugin-markdown-spoilers/blob/master/README.md) - lets you hide spoiler content
+- [Markdown Task Lists](https://github.com/funkjedi/grav-plugin-markdown-tasklists/blob/master/README.md) - lets you make task lists with checkboxes
+- [Shortcode Owl Carousel](https://github.com/getgrav/grav-plugin-shortcode-owl-carousel/blob/master/README.md) - lets you make a carousel of images
