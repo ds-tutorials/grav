@@ -79,8 +79,6 @@ When that update is complete, there are still normal updates required. Several o
 
 ![Button 'Update' is at the bottom right of the Maintenance section.](update.png)
 
-When that has finished, the dashboard will show that everything is up-to-date.
-
-![The Maintenance section shows Grav is 100% updated.](fully-updated.png)
+When that has finished, check for updates once more. If the dashboard still indicates that you are 100% up-to-date, you are good to continue.
 
 If you run into any issues using the admin panel, or just want to know more, you can check out the [documentation](https://learn.getgrav.org/16/admin-panel).

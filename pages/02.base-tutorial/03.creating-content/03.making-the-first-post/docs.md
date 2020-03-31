@@ -1,6 +1,6 @@
 ---
 title: 'Making the First Post'
-media_order: 'add-post.png,added-tags.png,adding-media-and-credit.png,blog-first-post.png,first-post-image.png,first-post.png,first-tag.png,grav-content.png,navigation-dropdown.png,setting-hero-image.png,summary-delimiter.png,complete-post.png,page-options.png'
+media_order: 'add-post.png,added-tags.png,blog-first-post.png,first-post-image.png,first-post.png,first-tag.png,grav-content.png,navigation-dropdown.png,summary-delimiter.png,complete-post.png,page-options.png,adding-media-and-credit.png,setting-hero-image.png'
 taxonomy:
     category:
         - docs
@@ -64,7 +64,7 @@ CLIP: ### Photo Credit
 Rainbow over glacier, New Zealand by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC BY-NS-SA 4.0](https://www.creativecommons.org/licenses/by-nc-sa/4.0/)
 ```
 
-![The above Markdown is shown added to the editor. The image rainbow-over-glacier-nz.png has been added to the Page Media section.](adding-media-and-credit.png)
+![The above Markdown is shown added to the editor. The image rainbow-over-glacier-nz.jpg has been added to the Page Media section.](adding-media-and-credit.png)
 
 ## Tags
 
@@ -107,7 +107,7 @@ Since the photo is kind of dark, we could do what we did for our blog page and a
 
 ! Note that for the _Blog_ template, the tab with the above options is called _Blog Config_. For the _Item_ template, this tab is called _Blog Item_.
 
-![Hero Section in the Blog Item tab. Hero Classes: title-h1h2 text-light overlay-dark-gradient. Hero Image: rainbow-over-glacier-nz.png.](setting-hero-image.png)
+![Hero Section in the Blog Item tab. Hero Classes: title-h1h2 text-light overlay-dark-gradient. Hero Image: rainbow-over-glacier-nz.jpg.](setting-hero-image.png)
 
 Now when we click on the post (or refresh the page) the image appears.
 

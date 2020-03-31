@@ -58,9 +58,9 @@ Content:
 ```md
 CLIP: As mentioned in the [tutorial](http://ds-tutorials.oucreate.com/base-tutorial/content/media), there are two ways to add images to your pages. The tutorial walks you through uploading an image and then setting it as the "hero image" used by the page template. It also provides a brief description of adding images within the content. In this post we will demonstrate adding an image within the content.
 
-![An image from the total solar eclipse of 2017, taken from Casper Wyoming some time before totality.](eclipse-2017.png)
+![An image from the total solar eclipse of 2017, taken from Casper Wyoming some time before totality.](eclipse-2017.jpg)
 
-The Markdown for adding an image looks like ![alt text](image url). If the media has been added to the page that is using it (by uploading it the same way you would before setting it as the hero image), the url can simply be the name of the image, like this: ![alt text](image.png) or ![alt text](./image.png). If you are using an image located elsewhere on your website you will need to provide either the full url or the relative url (for example, image.png and ./image.png are relative urls). I strongly recommend uploading the images you use directly to the page (or to a seperate folder on your website). An image posted elsewhere on the internet might be taken down at some point, leaving you with a broken image link.
+The Markdown for adding an image looks like `![alt text](image url)`. If the media has been added to the page that is using it (by uploading it the same way you would before setting it as the hero image), the url can simply be the name of the image, like this: `![alt text](image.jpg)` or `![alt text](./image.jpg)`. If you are using an image located elsewhere on your website you will need to provide either the full url or the relative url (for example, image.png and ./image.png are relative urls). I strongly recommend uploading the images you use directly to the page (or to a seperate folder on your website). An image posted elsewhere on the internet might be taken down at some point, leaving you with a broken image link.
 
 ! Please note the alt text (or alternative text) section in the Markdown for adding an image. It is extremely important to provide good alt text for any image you add to your content. If the image is ever removed, the broken link will display the alt text instead, allowing users to at least know what used to be there. More importantly, visually impaired users can benefit from good alt text, since they may not be able to make use of the image itself.
 
@@ -72,7 +72,7 @@ Total Solar Eclipse 2017, Wyoming by [Wendy Acker](https://www.flickr.com/people
 ```
 
 Page Media:
-- _Total Solar Eclipse 2017, Wyoming_ **as** _eclipse-2017.png_
+- _Total Solar Eclipse 2017, Wyoming_ **as** _eclipse-2017.jpg_
 
 #### Options
 
@@ -95,7 +95,7 @@ Hero Image: _none_
 
 ```yaml
 CLIP: title: 'Media in Markdown'
-media_order: eclipse-2017.png
+media_order: eclipse-2017.jpg
 date: '22-07-2019 00:00'
 taxonomy:
     category:
@@ -159,7 +159,7 @@ Photo: Yellowstone by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [
 ```
 
 Page Media:
-- _Yellowstone_ **as** _yellowstone.png_
+- _Yellowstone_ **as** _yellowstone.jpg_
 
 #### Options
 
@@ -176,13 +176,13 @@ Tags:
 
 Hero Classes: `CLIP: title-h1h2 text-light overlay-dark-gradient`
 
-Hero Image: _yellowstone.png_
+Hero Image: _yellowstone.jpg_
 
 #### Frontmatter
 
 ```yaml
 CLIP: title: 'File Naming Conventions'
-media_order: yellowstone.png
+media_order: yellowstone.jpg
 date: '02-08-2019 00:00'
 taxonomy:
     category:
@@ -192,7 +192,7 @@ taxonomy:
         - 'the carpentries'
         - yellowstone
 hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
-hero_image: yellowstone.png
+hero_image: yellowstone.jpg
 feed:
     limit: 10
 ```
@@ -220,7 +220,7 @@ The Southern Milky Way, New Zealand by [Wendy Acker](https://www.flickr.com/peop
 ```
 
 Page Media:
-- _The Southern Milky Way, New Zealand_ as _milky-way.png_
+- _The Southern Milky Way, New Zealand_ as _milky-way.jpg_
 
 #### Options
 
@@ -236,13 +236,13 @@ Tags:
 
 Hero Classes: `CLIP: title-h1h2 text-light overlay-dark-gradient`
 
-Hero Image: _milky-way.png_
+Hero Image: _milky-way.jpg_
 
 #### Frontmatter
 
 ```yaml
 CLIP: title: Telescopes
-media_order: milky-way.png
+media_order: milky-way.jpg
 date: '13-08-2019 00:00'
 taxonomy:
     category:
@@ -251,7 +251,7 @@ taxonomy:
         - astronomy
         - 'ou libraries'
 hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
-hero_image: milky-way.png
+hero_image: milky-way.jpg
 feed:
     limit: 10
 ```
@@ -329,7 +329,7 @@ Pancake Rocks, New Zealand by [Wendy Acker](https://www.flickr.com/people/theodw
 ```
 
 Page Media:
-- _Pancake Rocks, New Zealand_ **as** _pancake-rocks-nz.png_
+- _Pancake Rocks, New Zealand_ **as** _pancake-rocks-nz.jpg_
 
 #### Options
 
@@ -344,12 +344,12 @@ Tags:
 
 Hero Classes: `CLIP: title-h1h2 text-light overlay-dark-gradient`
 
-Hero Image: _pancake-rocks-nz.png_
+Hero Image: _pancake-rocks-nz.jpg_
 
 #### Frontmatter
 ```yaml
 CLIP: title: 'Media Literacy'
-media_order: pancake-rocks-nz.png
+media_order: pancake-rocks-nz.jpg
 date: '04-10-2019 00:00'
 taxonomy:
     category:
@@ -357,7 +357,7 @@ taxonomy:
     tag:
         - 'landscape photo'
 hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
-hero_image: pancake-rocks-nz.png
+hero_image: pancake-rocks-nz.jpg
 feed:
     limit: 10
 ```
@@ -386,7 +386,7 @@ Texas Wildflowers by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [C
 ```
 
 Page Media:
-- _Texas Wildflowers_ **as** _texas-wildflowers.png_
+- _Texas Wildflowers_ **as** _texas-wildflowers.jpg_
 
 #### Options
 
@@ -402,12 +402,12 @@ Tags:
 
 Hero Classes: ```CLIP: title-h1h2 text-light overlay-dark-gradient```
 
-Hero Image: _texas-wildflowers.png_
+Hero Image: _texas-wildflowers.jpg_
 
 #### Frontmatter
 ```yaml
 CLIP: title: 'Library Workshops'
-media_order: texas-wildflowers.png
+media_order: texas-wildflowers.jpg
 date: '21-10-2019 00:00'
 taxonomy:
     category:
@@ -416,7 +416,7 @@ taxonomy:
         - 'landscape photo'
         - 'ou libraries'
 hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
-hero_image: texas-wildflowers.png
+hero_image: texas-wildflowers.jpg
 feed:
     limit: 10
 ```
@@ -472,7 +472,7 @@ Queenstown Hill, New Zealand by [Wendy Acker](https://www.flickr.com/people/theo
 ```
 
 Page Media:
-- _Queenstown Hill, New Zealand_ **as** _queenstown-hill-nz.png_
+- _Queenstown Hill, New Zealand_ **as** _queenstown-hill-nz.jpg_
 
 #### Options
 
@@ -488,12 +488,12 @@ Tags:
 
 Hero Classes: ```CLIP: title-h1h2 text-light overlay-dark-gradient```
 
-Hero Image: _queenstown-hill-nz.png_
+Hero Image: _queenstown-hill-nz.jpg_
 
 #### Frontmatter
 ```yaml
 CLIP: title: 'Fantasy Books'
-media_order: queenstown-hill-nz.png
+media_order: queenstown-hill-nz.jpg
 date: '03-11-2019 00:00'
 taxonomy:
     category:
@@ -503,7 +503,7 @@ taxonomy:
         - 'just for fun'
 visible: false
 hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
-hero_image: queenstown-hill-nz.png
+hero_image: queenstown-hill-nz.jpg
 feed:
     limit: 10
 ```
@@ -532,7 +532,7 @@ Wyoming Sunset by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [CC B
 ```
 
 Page Media:
-- _Wyoming Sunset_ **as** _wyoming-sunset.png_
+- _Wyoming Sunset_ **as** _wyoming-sunset.jpg_
 
 #### Options
 
@@ -548,12 +548,12 @@ Tags:
 
 Hero Classes: ```CLIP: title-h1h2 text-light overlay-dark-gradient```
 
-Hero Image: _wyoming-sunset.png_
+Hero Image: _wyoming-sunset.jpg_
 
 #### Frontmatter
 ```yaml
 CLIP: title: 'Library Resources and Research Help'
-media_order: wyoming-sunset.png
+media_order: wyoming-sunset.jpg
 date: '08-11-2019 00:00'
 taxonomy:
     category:
@@ -562,7 +562,7 @@ taxonomy:
         - 'landscape photo'
         - 'ou libraries'
 hero_classes: 'title-h1h2 text-light overlay-dark-gradient'
-hero_image: wyoming-sunset.png
+hero_image: wyoming-sunset.jpg
 feed:
     limit: 10
 ```
@@ -583,11 +583,11 @@ The top four parks I have visited are Point Reyes, Yellowstone, Big Bend, and th
 
 Here is a gorgeous picture of Arch Rock, a location my family and I hiked to at Point Reyes:
 
-![Decorative: Arch Rock](arch-rock-point-reyes.png)
+![Decorative: Arch Rock](arch-rock-point-reyes.jpg)
 
 This picture does not do Yellowstone justice _at all_, but no one picture can:
 
-![Decorative: Yellowstone](yellowstone-vista.png)
+![Decorative: Yellowstone](yellowstone-vista.jpg)
 
 ### Photo Credit
 
@@ -597,8 +597,8 @@ Yellowstone Vista by [Wendy Acker](https://www.flickr.com/people/theodwynn/), [C
 ```
 
 Page Media:
-- _Arch Rock, Point Reyes National Seashore_ **as** _arch-rock-point-reyes.png_
-- _Yellowstone Vista_ **as** _yellowstone-vista.png_
+- _Arch Rock, Point Reyes National Seashore_ **as** _arch-rock-point-reyes.jpg_
+- _Yellowstone Vista_ **as** _yellowstone-vista.jpg_
 
 #### Options
 
@@ -619,7 +619,7 @@ Hero Image: _none_
 #### Frontmatter
 ```yaml
 CLIP: title: Parks
-media_order: 'arch-rock-point-reyes.png,yellowstone-vista.png'
+media_order: 'arch-rock-point-reyes.jpg,yellowstone-vista.jpg'
 date: '27-11-2019 00:00'
 taxonomy:
     category:

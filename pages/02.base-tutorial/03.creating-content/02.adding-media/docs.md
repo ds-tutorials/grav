@@ -1,6 +1,6 @@
 ---
 title: 'Adding Media'
-media_order: 'added-media.png,after-adding-media.png,hero-image-settings.png,media-resizing.png,page-media.png'
+media_order: 'after-adding-media.png,media-resizing.png,page-media.png,added-media.png,hero-image-settings.png'
 taxonomy:
     category:
         - docs
@@ -14,7 +14,7 @@ The other way is to add media to a page with a template that supports showing me
 
 The photos I use in this tutorial are available from [flickr](https://www.flickr.com/photos/theodwynn/albums/72157712814676952). You are welcome to download and use these for the tutorial.
 
-! When downloading images I always choose the _Original Size_ option to get the best quality image. You can choose any size you like, but keep in mind that the lower the size, the lower the quality. I also changed all of my images to .png instead of .jpg after downloading. This is because .png images do not lose quality when they are compressed. Please make sure that your file extensions are visible if you change the image to .png. Otherwise you might end up having `file-name.png.jpg`, which would not be very helpful.
+! When downloading images I always choose the _Large_ option. _Original Size_ would provide a slightly higher quality image, but I could not see a clear difference. I did notice a distinct drop in quality from _Large_ to _Medium_. You can choose any size you like. Keep in mind that the lower the size, the lower the quality, and the higher the size, the slower it will load.
 
 ## Adding Images
 
@@ -24,15 +24,15 @@ Whether we are including an image within our content as we will do later or addi
 
 ! Note that the Page Media section will not initially be available on a new page. Any new page must be saved first before images can be added. This is because Grav will not create the page folder until after the first save, but that folder is where images uploaded to the page are saved.
 
-If you are using the images from flickr, download _The Southern Milkyway, New Zealand_. I have saved it as milky-way.png. When we have added and saved an image, the content editor will show it in the media box.
+If you are using the images from flickr, download _The Southern Milkyway, New Zealand_. I have saved it as milky-way.jpg. When we have added and saved an image, the content editor will show it in the media box.
 
-![The milky-way.png image is shown in the Page Media box where the text 'Drop your files here etc.' used to be.](added-media.png)
+![The milky-way.jpg image is shown in the Page Media box where the text 'Drop your files here etc.' used to be.](added-media.png)
 
 ### Option 1: Including an image directly in the content
 
 In many cases, having added an image to the Page Media section would not cause any changes on the page itself. In this case, because the _Blog_ template supports adding an image, all we need to do is configure our settings in the _Blog Config_ tab. However, if we wanted to add the image within the content, we still could do that as well. In general, if a template supports an image, the only time we would also want to add one to the content is if we were using more than one. We will actually add an image to our content in one of the sample blog posts, but in case you are curious now, here are the instructions.
 
-The Markdown for adding an image looks like `![alt text](image url)`. If the media has been added to the page that is using it (by uploading it the same way you would before setting it as the hero image), the url can simply be the name of the image, like this: `![alt text](image.png)` or `![alt text](./image.png)`. If you are using an image located elsewhere on your website you will need to provide either the full url or the relative url (for example, `image.png` and `./image.png` are relative urls). I strongly recommend uploading the images you use directly to the page (or to a seperate folder on your website). An image posted elsewhere on the internet might be taken down at some point, leaving you with a broken image link.
+The Markdown for adding an image looks like `![alt text](image url)`. If the media has been added to the page that is using it (by uploading it the same way you would before setting it as the hero image), the url can simply be the name of the image, like this: `![alt text](image.jpg)` or `![alt text](./image.jpg)`. If you are using an image located elsewhere on your website you will need to provide either the full url or the relative url (for example, `image.jpg` and `./image.jpg` are relative urls). I strongly recommend uploading the images you use directly to the page (or to a seperate folder on your website). An image posted elsewhere on the internet might be taken down at some point, leaving you with a broken image link.
 
 ! Please note the _alt text_ (or alternative text) section in the Markdown for adding an image. It is extremely important to provide good alt text for any image you add to your content. If the image is ever removed, the broken link will display the alt text instead, allowing users to at least know what used to be there. More importantly, visually impaired users can benefit from good alt text, since they may not be able to make use of the image itself.
 
@@ -44,7 +44,7 @@ Since the image I chose is rather dark, it does not make sense to pair it with d
 
 We can also explicitly set the image we added as the hero image to be used by the template, although it should automatically use the first image it finds.
 
-![The first section of the Blog Config tab is the Hero Section. Hero Classes: text-light. Hero Image: milky-way.png.](hero-image-settings.png)
+![The first section of the Blog Config tab is the Hero Section. Hero Classes: text-light. Hero Image: milky-way.jpg.](hero-image-settings.png)
 
 The page now looks a lot nicer.
 
