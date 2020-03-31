@@ -1,6 +1,6 @@
 ---
 title: 'Making the Blog Page'
-media_order: 'add-page-settings.png,add-page.png,blog-config.png,blog-page-content.png,expert-mode.png,header-demo.png,page-editor.png,result-blog.png'
+media_order: 'add-page.png,add-page-settings.png,page-editor.png,blog-page-content.png,header-demo.png,blog-config.png,max-item-count.png,expert-mode.png,result-blog.png'
 taxonomy:
     category:
         - docs
@@ -41,9 +41,9 @@ CLIP: # My Example Blog
 
 This will render as
 
-![Visual representation of the markdown.](header-demo.png)
+![Visual representation of the markdown.](header-demo.png?cropResize=600,600)
 
-## Testing Expert Mode
+## Blog Settings
 
 After saving, we can take a look at the _Blog Config_ tab.
 
@@ -51,9 +51,30 @@ After saving, we can take a look at the _Blog Config_ tab.
 
 There are a lot of options here. Fortunately, the default settings are usually good to start out with, so all you need to do is glance over this tab for now. Some of the settings define the collection of blog posts. Some others provide settings for enabled plugins.
 
+One setting we might want to change is _Max Item Count_ under _Content Definition_. By default this is set to 5, which means that the blog page will show five posts per page. Five does not seem like very much to me, so I would change it to 10.
+
+![Max Item Count is the second option under Content Definition. It is set to 10.](max-item-count.png)
+
+## Testing Expert Mode
+
 If we switch to expert mode, we can see how these settings are provided in the frontmatter. Although we will not have to edit them while in expert mode, this will help demystify the frontmatter, which may help in the future if we come across something we cannot modify from the provided user interface.
 
-![With Expert Mode toggle is selected (on the right in-line with the tab headings). The Content tab is selected, and the Frontmatter section is shown, which replaces the Title section shown in Normal Mode.](expert-mode.png)
+```yaml
+CLIP: title: Blog
+content:
+    items:
+        - '@self.children'
+    limit: 10
+    order:
+        by: date
+        dir: desc
+    pagination: true
+    url_taxonomy_filters: true
+feed:
+    limit: 10
+```
+
+<!--![With Expert Mode toggle is selected (on the right in-line with the tab headings). The Content tab is selected, and the Frontmatter section is shown, which replaces the Title section shown in Normal Mode.](expert-mode.png)-->
 
 Now we only have _Content_ and _Options_ tabs. On the _Content_ tab, the _Title_ section has been replaced with a _Frontmatter_ section, which defines the title and some of the options we saw on the _Blog Config_ tab. You may notice (especially if you took a look at the Options and Advanced tabs) that not all of the settings are listed here. If a setting is not explicitly defined in the frontmatter, Grav will automatically use the default.
 

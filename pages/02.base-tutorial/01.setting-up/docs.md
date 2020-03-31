@@ -1,6 +1,6 @@
 ---
 title: 'Setting Up'
-media_order: 'check-for-updates.png,default-directory.png,fully-updated.png,grav-directory.png,install-grav.png,installation-settings.png,installatron-grav.png,no-directory.png,to-admin-panel.png,to-website.png,update-grav.png,update.png'
+media_order: 'grav.png,default-directory.png,no-directory.png,grav-directory.png,installation-settings.png,install-grav.png,to-website.png,to-admin-panel.png,check-for-updates.png,update-grav.png,update.png'
 taxonomy:
     category:
         - docs
@@ -16,7 +16,7 @@ If you are currently affiliated with OU, you have access to a free subdomain of 
 
 Once you have signed in to your dashboard on OU Create/Relcaim Hosting you will either see Grav listed under the Applications section or you can click on All Applications and find Grav from there.
 
-![Button 'install this application' located at the top right corner of the Installatron Grav page.](./installatron-grav.png)
+![Button 'install this application' located at the top right corner of the Installatron Grav page.](./grav.png)
 
 While most of the default settings for the installation are fine, there are a few we want to change.
 
@@ -48,8 +48,6 @@ Finally, the only other setting we might consider changing here is the skeleton 
 All we need to do now is press install.
 
 ![Button 'install' is located at the bottom left under the 'Advanced' installation options.](install-grav.png)
-
-! Note that while the screenshots show the demo being installed at grav.ds-tutorials.oucreate.com, the actual demo is located at ds-tutorials.oucreate.com.
 
 ## 3. Check out the admin panel
 

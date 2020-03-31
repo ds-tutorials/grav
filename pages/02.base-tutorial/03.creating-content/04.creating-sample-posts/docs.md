@@ -14,6 +14,15 @@ You can make your own posts if you like, but I have provided several sample post
 
 Instead of making the posts below you can instead download a zip file that you can replace your current _pages_ folder with. Making the posts manually may give you additional experience and information, but it may also be tedious, so this option is available as well.
 
+1. Download [this repository](https://github.com/ds-tutorials/grav-sample-pages) as a zip file.
+2. Go to _create.ou.edu_ and open the _File Manager_. It should be the first option under the _Files_ section. Ignores this is you installed grav elsewhere.
+3. Navigate through your files to your grav install directory and go the _user_ folder.
+4. Upload the zip file.
+5. Delete the _pages_ folder.
+6. Extract the _pages_ folder from the zip file.
+7. You can now delete the zip file.
+
+<!--
 1. Download [pages.zip](https://github.com/ds-tutorials/grav-sample-pages/raw/master/pages.zip)
 2. Go to _create.ou.edu_ and open the _File Manager_. It should be the first option under the _Files_ section. Ignores this is you installed grav elsewhere.
 3. Navigate through your files to your grav install directory and go the _user_ folder.
@@ -21,6 +30,7 @@ Instead of making the posts below you can instead download a zip file that you c
 5. Delete the _pages_ folder.
 6. Extract _pages.zip_.
 7. You can now delete the zip file.
+-->
 
 ## The Posts
 
@@ -270,7 +280,7 @@ CLIP: As of this post, Quark is the default theme for Grav websites. It has a nu
 
 To access these options, go to the _Themes_ tab in your admin panel and click on Quark. The most likely options you will be interested in are the grid size and custom logo options.
 
-The grid size determines the maximum width of the frame for your website and by default is set to _Large_. I personally prefer _Extra Large_, as _Large_ creates large swathes of empty space on either side of the blog when I use a large monitor. Try changing the settings and see how that changes your blog.
+The grid size determines the maximum width of the frame for your website and by default is set to _Large_. On a large monitor _Extra Large_ might be preferable, as _Large_ can create large swathes of empty space on either side of the blog. On the other hand, _Extra Large_ may have too little space on either side of the blog for anyone using a normal size monitor. Try changing the settings to see what you like best.
 
 The custom logo replaces the Grav logo at the top left. You could use a personal or organization logo, or even take a screenshot of your name in a nice font.
 ```

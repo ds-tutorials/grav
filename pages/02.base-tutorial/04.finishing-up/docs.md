@@ -30,8 +30,6 @@ The blog displays all of our posts by making a collection, which we can customiz
 
 ! This ordering **only** occurs within the admin panel. It will not affect the way your pages are ordered when you view them with the File Manager, Finder, File Explorer, etc.
 
-!!!! For more file structure options a mini tutorial is in development.
-
 ## Sidebar Text
 
 There is a lot going on in the left sidebar, but we can add our own custom text to it as well. This is a good place for an about the author blurb, or anything else you might want to put.
@@ -56,4 +54,4 @@ This section will be inserted between _Random Article_ and _Popular Tags_ in the
 
 ## Next Steps
 
-This marks the end of the base Grav tutorial. You should now be able to run your own blog. The mini tutorials, as they are created, will provide information for further customization and content creation. You can also check out the various documentation resources listed in the [introduction](https://www.ds-tutorials.oucreate.com/grav/) as well as the Readmes for any plugins or themes you are curious about.
+This marks the end of the base Grav tutorial. You should now be able to run your own blog. The mini tutorials, as they are created, will provide information for further customization and content creation. You can also check out the various documentation resources listed in the [introduction](https://www.ds-tutorials.oucreate.com/grav/) as well as the READMEs for any plugins or themes you are curious about.

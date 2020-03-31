@@ -1,6 +1,6 @@
 ---
 title: 'Adding Media'
-media_order: 'after-adding-media.png,media-resizing.png,page-media.png,added-media.png,hero-image-settings.png'
+media_order: 'page-media.png,added-media.png,hero-image-settings.png,after-adding-media.png'
 taxonomy:
     category:
         - docs
@@ -52,4 +52,4 @@ The page now looks a lot nicer.
 ![The Blog page on the website now shows the content in light text on top of the image we added.](after-adding-media.png)
 [/ui-browser]
 
-!!!! Occasionally you may have an image large enough that it causes issues when you try to add it in the admin panel. You can learn more about changing media settings in a future mini tutorial.
+!!! For more information about adding media and what you can do, check out the [Grav Media documentation](https://learn.getgrav.org/16/content/media).

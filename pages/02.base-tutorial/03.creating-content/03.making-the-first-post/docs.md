@@ -1,6 +1,6 @@
 ---
 title: 'Making the First Post'
-media_order: 'add-post.png,added-tags.png,blog-first-post.png,first-post-image.png,first-post.png,first-tag.png,grav-content.png,navigation-dropdown.png,summary-delimiter.png,complete-post.png,page-options.png,adding-media-and-credit.png,setting-hero-image.png'
+media_order: 'blog-first-post.png,first-post.png,navigation-dropdown.png,complete-post.png,page-options.png,adding-media-and-credit.png,setting-hero-image.png,summary-delimiter.png,first-post-image.png,grav-content.png,add-post.png,added-tags.png,first-tag.png'
 taxonomy:
     category:
         - docs

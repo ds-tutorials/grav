@@ -38,6 +38,8 @@ These tutorials will extend the base tutorial, using the framework we will have 
 
 I will include links to various references throughout the tutorial as they come up and as the mini tutorials become available.
 
+If you are interested in contributing to the mini tutorials, please contact digitalscholarship@ou.edu.
+
 ## Additional Resources
 
 These are listed in order from most important/least complicated to least important/most complicated.
